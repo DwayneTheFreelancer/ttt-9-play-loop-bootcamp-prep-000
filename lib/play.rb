@@ -40,10 +40,8 @@ end
 def play(board)
   turns = 0
   until turns == 9 
-    
-  end
-  while turns < 10 
+    puts turn(board)
     turns += 1
-    turn(board)
   end
+  return turn(board)
 end
