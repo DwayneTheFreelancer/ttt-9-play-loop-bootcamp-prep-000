@@ -37,6 +37,6 @@ end
 
 # Define your play method below
 
-def play(board) 
+def play(display_board(board)) 
   
 end
